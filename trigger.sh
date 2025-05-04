@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# 실행 및 로그 기록
 bash run_batch.sh 2>&1 | tee error.log
 EXIT_CODE=$?
 
